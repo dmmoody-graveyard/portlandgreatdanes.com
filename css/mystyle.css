@@ -1,10 +1,11 @@
+* {
+	background-color: #F5F5DC;
+}
+
 body {
 	font-family: Handlee; Sans-Serif;
 	padding-top: 20px;
-}
-
-* {
-	background-color: #9aa38a;
+    background-color: #F5F5DC; /* #9aa38a */
 }
 
 h1.title {
@@ -45,7 +46,7 @@ ul.nav li {
 
 ul.nav li a {
 	text-decoration: none;
-	color: #9aa38a;
+	color: #F5F5DC;
 	background-color: #331e1d;
 	padding: 5px 15px 0px 15px;
 	font-size: 24px;
@@ -99,4 +100,9 @@ address {
 address a {
 	text-decoration: none;
 	color: #202018;
+}
+
+#books a {
+    text-decoration: none;
+    color: inherit;
 }
